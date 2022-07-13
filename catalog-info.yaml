@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: splunk-on-call
+  annotations:
+    splunk.com/on-call-team: Doctor-Strange
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
