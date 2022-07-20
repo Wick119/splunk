@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: splunk-on-call
   annotations:
-    splunk.com/on-call-team: Doctor-Strange
+    splunk.com/on-call-team: Example
 spec:
   type: service
   owner: user:guest
